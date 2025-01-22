@@ -1,0 +1,14 @@
+{
+  "name": "performance-x/xhprof-data-processor",
+  "description": "Enhances XHProf profiling data by adding detailed function signatures including parameter types",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "PerformanceX\\XHProfProcessor\\": "src/"
+    }
+  }
+}
